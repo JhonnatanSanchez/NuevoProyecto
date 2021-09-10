@@ -16,5 +16,12 @@ namespace NuevoProyecto
         {
             InitializeComponent();
         }
+
+        private void btnIrForm1_Click(object sender, EventArgs e)
+        {
+            Form1 formulario = new Form1();
+            formulario.Show();
+            formulario.Hide();
+        }
     }
 }
