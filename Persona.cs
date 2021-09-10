@@ -13,6 +13,12 @@ namespace NuevoProyecto
         private int edad;
         private int anioNacimiento;
 
+        public int calcularEdad()
+        {
+            edad = 2021 - anioNacimiento;
+            return this.edad;
+        }
+
         public Persona(string nombre, string cedula, int anioNacimiento)
         {
             this.nombre = nombre;
