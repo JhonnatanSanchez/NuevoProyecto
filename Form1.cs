@@ -21,6 +21,7 @@ namespace NuevoProyecto
         {
             Form2 f = new Form2();
             f.Show();
+            this.Hide();
         }
     }
 }

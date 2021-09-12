@@ -21,6 +21,7 @@ namespace NuevoProyecto
         {
             Form1 formulario = new Form1();
             formulario.Show();
+            this.Close();
             
         }
     }
